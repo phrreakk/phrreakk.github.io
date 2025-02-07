@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  body {
+    background:black;
+    color:white;
+    font-family:monospace;
+    margin:10px;
+    font-size:120%;
+  }
+  h1 {
+    font-size:100%;
+    margin-bottom:10px;
+  }
+  h2 {
+    font-size:100%;
+    margin-bottom:10px;
+  }
+  p {
+    margin-bottom:10px;
+  }
+  ul {
+    list-style-type:none;
+    margin-bottom:10px;
+  }
+  ul ul {
+    padding-left:20px;
+  }
+  a {
+    color:#8c8cff;
+  }
+  a:hover {
+    text-decoration:underline;
+  }
+  a:visited {
+    color:#aa00aa;
+  }
+  .green {
+    color:green;
+  }

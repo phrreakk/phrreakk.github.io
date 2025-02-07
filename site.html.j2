@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cloud/DevOps Engineer - {{ name }} - {{ info["location"] }}</title>
+    {%- for item in cssFiles %}
+      <link rel="stylesheet" href={{ item }}>
+    {%- endfor %}
+  </head>
+  <body>
+    <p><span class="green">{{ info["email"] }}</span>:~$ whoami</p>
+    <h1>{{ name }}</h1>
+    <p><span class="green">{{ info["email"] }}</span>:~$ positions</p>
+    {%- for title, responsibilities in intro.items() %}
+    <h2>{{ title }}</h2>
+    <ul>
+      {%- for value in responsibilities %}
+      <li>{{ value }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endfor %}
+    <p><span class="green">{{ info["email"] }}</span>:~$ professionallinks
+    <ul>
+      <li><a href="mailto:{{ info["email"] }}">E-mail</a></li>
+      <li><a href="{{ info["linkedin"] }}">LinkedIn Profile</a></li>
+      <li><a href="resume.pdf">Resume</a></li>
+      <li><a href="{{ info["github"] }}">GitHub Profile</a></li>
+    </ul>
+    <p><span class="green">{{ info["email"] }}</span>:~$ projects
+    <ul>
+    {%- for item in projects %}
+      <li><a href="{{ item["link"] }}">{{ item["about"] }}</a></li>
+    {%- endfor %}
+    </ul>
+    <p><span class="green">{{ info["email"] }}</span>:~$ display avatar.jpg</p>
+    <img src="avatar.jpg" alt="{{ name }} Avatar" width="200" height="250">
+  </body>
+</html>

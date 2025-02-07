@@ -1,0 +1,152 @@
+---
+name: Kevin Gangi
+title: Cloud DevOps Engineer<br>Linux Systems Administrator<br>Systems Engineer
+info:
+  location: Orlando, FL
+  phone: 781-223-8156
+  email: kevin.resume@gangi-home.us
+  linkedin: https://linkedin.com/in/kevingangi
+  github: https://github.com/phrreakk
+skills:
+  Linux: 100
+  Windows: 70
+  Cloud: 70
+  AWS: 100
+  GCP: 30
+  CloudFormation: 100
+  Terraform: 20
+  Docker: 80
+  Kubernetes: 50
+  Helm: 25
+  git: 75
+  TCP/IP: 100
+  CI/CD: 60
+  Jenkins: 50
+  CodeDeploy: 30
+  BASH: 30
+  Python: 50
+  Ansible: 80
+  Active Directory: 60
+  Jira: 50
+  Virtualization: 100
+  Ovirt/RHEV: 80
+  MySQL: 50
+  Hadoop: 30
+  Hashicorp Vault: 30
+  Zabbix: 20
+certifications:
+  - name: CompTIA Security+ CE
+    status: active until May 2027
+  - name: ISC2 Certified in Cybersecurity
+    status: active until March 2027
+  - name: Google Cybersecurity
+    status: active April 2024
+  - name: AWS Certified Solutions Architect - Associate
+    status: expired June 2024
+  - name: AWS Certified SysOps Administrator
+    status: expired November 2023
+  - name: Hadoop administrator CDH 3
+    status: expired
+honors:
+  - name: Active security clearance
+    location: Department of Treasury
+  - name: 3 Hero awards received
+    location: Vlingo
+education:
+  - institution: ITT Technical Institute
+    degree: Associate's in Computer Networking Systems
+  - institution: Harvard.edu Online
+    degree: CS50x Certificate
+intro:
+  # Principal Architect:
+  # - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
+  # - Possesses an extensive background in multiple overlapping careers including systems engineering, DevOps Engineering, Systems Engineering, and IT Support management.
+  # - Possesses strong leadership and mentorship skills and can provide a culture of excellence and continuous improvement.
+  # - Has excellent communication skills with both technical and non-technical stakeholders.
+  # - In-depth knowledge of software design patterns, architectural styles (e.g., microservices, event-driven, serverless architecture, various CI/CD tools), and other emerging technologies
+  DevOps and Platform Engineer:
+  - Expert in building CI/CD driven microservice based architectures.
+  - Experienced in systems integration in order to create the best possible foundation for any given project.
+  - Experienced in working with and supporting developers in order to see projects through to completion and continued development.
+  - Adept at creating and implementing tooling for developers to guarantee that they have the smoothest path from coding to production deployment.
+  Linux Systems Administrator:
+  - Extensive experience in building and maintaining enterprise scale on-prem and cloud environments.
+  - Highly experienced with many Linux distributions.
+  - Skilled in the setup and maintenance of highly available and redundant systems.
+  # IT Support Manager:
+  # - Has experience at managing, supporting, and optimizing IT departments to operate at peak efficiency.
+  # - Very experienced in desktop environments for all major operating systems macOS, iOS, Windows, and Linux.
+  # - Well versed in Jamf, Kandji, Microsoft Intune, and Connectwise.
+  # - Brings an engineering mindset to IT support that allows for better troubleshooting and problem solving.
+experience:
+  - company: Deloitte
+    from: 10-2020
+    to: 10-2022
+    title: Senior Solutions Specialist, Cloud Architect
+    blurb: Deloitte provides industry-leading audit, consulting, tax, and advisory services to many of the world's most admired brands, including 80 percent of the Fortune 500.  I started as an AWS DevOps engineer but grew into the role of Cloud Architect. That role had me involved in DevOps, systems engineering and administration, and security.
+    accomplishments:
+      - Lead a team of ten on an AWS migration project that involved setting expectations for work, establishing requirements with clients, and defining sprint plans using Jira, Confluence, and agile methodologies.
+      - Remediated Nessus results to work towards developing a “golden image” for distribution to developers and production environment systems.
+      - Lead author of password security guidelines document and disaster recovery document working with the Cyber Security team.
+      - Implement security controls and STIGs using Ansible for accreditation (NIST 800-53) in FedRAMP High environment running in AWS GovCloud.
+      - Architect lift-and-shift migration plans from legacy applications to AWS environment in GovCloud.
+      - Collaborated with legacy application admins to create Ansible automation playbooks/tasks to increase deployment speed.
+      - Worked together with developers to bring two environments to ATO in AWS GovCloud.
+  - company: Hitachi Vantara (Pentaho)
+    from: 11-2018
+    to: 09-2020
+    title: Cloud Engineer, DevOps Engineer
+    blurb: Pentaho is the brand name for several Data Management software products that make up the Pentaho+ Data Platform, purchased by Hitachi Vantara.  Started as the AWS Cloud engineer for Pentaho but grew into a lead role both on-prem and in our cloud environments.
+    accomplishments:
+      - Championed Ansible as the team/company automation platform and wrote over 25 Ansible playbooks connecting to RHEV, Ovirt, and VMware clusters as well as AWS environments.
+      - Implemented security best practices for EC2, S3, and security groups using Ansible to record a single point of truth in GitHub.
+      - Achieved 33-50% monthly cost savings over the last year through use of Cloudformation scripts and spot instances on AWS account.
+      - Launched Openshift 4.1 cluster for build team CI/CD processing using Ansible and Cobbler to bootstrap nodes on RHEV cluster.
+      - Designed and implemented business services and servers migration of a TCP/IP network to another floor of the same building.  This process required using different Fortinet firewalls and switches from the original location. 
+      - Created Vault environment using Ansible playbooks for storing secrets, PKI/CA, dynamic AWS IAM user/role creation, and AppRole use cases.
+      - Designed and implemented AWS TGW which connected developer environments via Palo Alto firewalls and the BGP networking protocool.  The developer environments were located in FL, MA, CA, Portugal, and multiple AWS accounts.
+  - company: Travel Media Group
+    from: 11-2016
+    to: 11-2018
+    title: AWS systems administrator, DevOps Engineer
+    blurb: A hospitality marketing leader providing solutions that give hotels a competitive edge through marketing and business insights.  Started as the on-prem systems administrator but grew into a DevOps engineer in an AWS environment.
+    accomplishments:
+      - Converted initial static design of PHP/FPM production environment into a highly scalable and highly available enterprise environment built with AWS tools and ideals.  Wrote and restructured all environments to be constructed in a reproducible manner using over 50 CloudFormation templates.
+      - Implemented a QA environment using CodeDeploy and CodePipeline to automatically pull GitHub Enterprise updates to the developer branch and deploy them to the QA server.  The time from developer code to QA server is measured in minutes instead of days.
+      - Designed, researched, and delivered a highly scalable WordPress environment with over 500 sites across the QA and Production environments using EC2, EFS, ASGs, ELBs, and CloudFormation templates.
+      - Worked with a developer to redesign a constant running task into a scalable and elastic task using spot instances and SQS while saving the company 83% of the cost of the original design.
+  - company: Bookit.com
+    from: 02-2015
+    to: 04-2016
+    title: Systems Administrator
+    blurb: Online presence for booking flights and vacations.
+    accomplishments:
+      - Designed and built a TCP/IP-based data center using Ovirt virtualization software in under three months while we kept production environment online.
+      - Researched, defined, and optimized database environment into a high performance MySQL environment and taught developers and administrators why we made these changes.
+  - company: Self-Employed
+    from: 06-2013
+    to: 02-2015
+    title: Systems Administrator
+    blurb: Self-employed working contract positions in various environments.
+    accomplishments:
+      - Managed Vmware 4.x infrastructure for developers and QA.
+      - Created a centralized login server and VPN using OpenVPN and 389 Directory server.
+      - Ran a help desk that catered to developers and QA personnel.
+  - company: Vlingo
+    from: 02-2009
+    to: 11-2012
+    title: Operations Systems Administrator
+    blurb: Highest rated voice assistant technology on a mobile phone.  Originally hired to be a Windows/help desk systems administrator and after one year of service, promoted to be a member of the Operations team.
+    accomplishments:
+      - Promoted from IT to Operations team. (CentOS, ~300 servers, 3 on-prem cage locations).
+      - Researched, designed, and built a 12 node Hadoop cluster and worked with developers to move from using MySQL for audit data to using Hadoop for long term storage.  Our MySQL environment would have been overwhelmed, by the 12x load we were expecting, had this task not be completed in a timely manner.
+      - Authored scripts to clean up the storage environment by 30% using Perl.
+      - Redesigned SPOF MySQL environment and instituted multi-master replication for redundancy purposes using MySQL 5.X, 12 servers.
+      - Wrote and designed F5 iRules to meet business needs after application out grew a single server platform.
+      - Implemented Cobbler system to bring Linux systems from bare metal to production ready status in about 15 minutes from six to eight hours.
+      - Worked on and designed various network related tasks involving Cisco Nexus 5Ks, FEX, and 3750Gs.
+projects:
+  - link: https://github.com/phrreakk/cybersecurity
+    about: Cyber Security Repository
+  # - link:
+  #   about:
