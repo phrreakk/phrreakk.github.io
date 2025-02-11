@@ -8,6 +8,27 @@ info:
   linkedin: https://linkedin.com/in/kevingangi
   github: https://github.com/phrreakk
   resume: /resume-builder/resume.pdf
+intro:
+  # Principal Architect:
+  # - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
+  # - Possesses an extensive background in multiple overlapping careers including systems engineering, DevOps Engineering, Systems Engineering, and IT Support management.
+  # - Possesses strong leadership and mentorship skills and can provide a culture of excellence and continuous improvement.
+  # - Has excellent communication skills with both technical and non-technical stakeholders.
+  # - In-depth knowledge of software design patterns, architectural styles (e.g., microservices, event-driven, serverless architecture, various CI/CD tools), and other emerging technologies
+  DevOps and Platform Engineer:
+  - Expert in building CI/CD driven microservice based architectures.
+  - Experienced in systems integration in order to create the best possible foundation for any given project.
+  - Experienced in working with and supporting developers in order to see projects through to completion and continued development.
+  - Adept at creating and implementing tooling for developers to guarantee that they have the smoothest path from coding to production deployment.
+  Linux Systems Administrator:
+  - Extensive experience in building and maintaining enterprise scale on-prem and cloud environments.
+  - Highly experienced with many Linux distributions.
+  - Skilled in the setup and maintenance of highly available and redundant systems.
+  # IT Support Manager:
+  # - Has experience at managing, supporting, and optimizing IT departments to operate at peak efficiency.
+  # - Very experienced in desktop environments for all major operating systems macOS, iOS, Windows, and Linux.
+  # - Well versed in Jamf, Kandji, Microsoft Intune, and Connectwise.
+  # - Brings an engineering mindset to IT support that allows for better troubleshooting and problem solving.
 projects:
   - link: https://github.com/phrreakk/cybersecurity
     about: Cyber Security Repository

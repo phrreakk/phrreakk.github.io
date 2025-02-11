@@ -27,24 +27,13 @@ with open(site_yaml, 'r') as file:
     name = site["name"]
     title = site["title"]
     info = site["info"]
-    skills = site["skills"]
     intro = site["intro"]
-    experience = site["experience"]
-    education = site["education"]
-    certifications = site["certifications"]
-    honors = site["honors"]
     projects = site["projects"]
 
     html = template.render(name = name,
                            title = title,
                            info = info,
-                           skills = skills,
                            intro = intro,
-                           experience = experience,
-                           education = education,
-                           cssFiles = cssFiles,
-                           certifications = certifications,
-                           honors = honors,
                            projects = projects)
 
     options = {
