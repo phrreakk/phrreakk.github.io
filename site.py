@@ -34,7 +34,8 @@ with open(site_yaml, 'r') as file:
                            title = title,
                            info = info,
                            intro = intro,
-                           projects = projects)
+                           projects = projects,
+                           cssFiles = cssFiles)
 
     options = {
       "enable-local-file-access": None,
