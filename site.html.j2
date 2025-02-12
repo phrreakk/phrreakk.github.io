@@ -22,14 +22,14 @@
     <p><span class="green">{{ info["email"] }}</span>:~$ professionallinks
     <ul>
       <li><a href="mailto:{{ info["email"] }}">E-mail</a></li>
-      <li><a href="{{ info["linkedin"] }}">LinkedIn Profile</a></li>
-      <li><a href="{{ info["resume"] }}">Resume</a></li>
-      <li><a href="{{ info["github"] }}">GitHub Profile</a></li>
+      <li><a href="{{ info["linkedin"] }}" target="_blank">LinkedIn Profile</a></li>
+      <li><a href="{{ info["resume"] }}" target="_blank">Resume</a></li>
+      <li><a href="{{ info["github"] }}" target="_blank">GitHub Profile</a></li>
     </ul>
     <p><span class="green">{{ info["email"] }}</span>:~$ projects
     <ul>
     {%- for item in projects %}
-      <li><a href="{{ item["link"] }}">{{ item["about"] }}</a></li>
+      <li><a href="{{ item["link"] }}">{{ item["about"] }} target="_blank"</a></li>
     {%- endfor %}
     </ul>
     <p><span class="green">{{ info["email"] }}</span>:~$ display avatar.jpg</p>
