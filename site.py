@@ -2,9 +2,7 @@
 
 import sys
 import yaml
-import pdfkit # type: ignore
 from jinja2 import Environment, FileSystemLoader
-from math import floor
 from os import listdir
 
 env = Environment(
