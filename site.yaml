@@ -7,7 +7,8 @@ info:
   email: kevin.resume@gangi-home.us
   linkedin: https://linkedin.com/in/kevingangi
   github: https://github.com/phrreakk
-  resume: /resume-builder/resume.pdf
+  resume: resume.pdf
+    # resume: /resume-builder/resume.pdf
 intro:
   # Principal Architect:
   # - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
